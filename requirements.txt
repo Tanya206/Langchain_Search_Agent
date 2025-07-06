@@ -1,0 +1,16 @@
+langchain
+python-dotenv
+langchain-openai
+ipykernel
+bs4
+langchain_community
+faiss-cpu
+streamlit
+
+#for tools_agents
+arxiv
+wikipedia
+langchain_groq
+duckduckgo-search
+
+google-search-results
