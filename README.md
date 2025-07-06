@@ -39,43 +39,39 @@ To run this app locally:
 
 ### 1. Clone the Repository
 ```bash
+
 git clone https://github.com/your-username/langchain-search-agent.git
 cd langchain-search-agent
+```
 2. Set Up Virtual Environment
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 3. Install Requirements
-bash
-Copy
-Edit
+```bash
+
 pip install -r requirements.txt
+```
 4. Create a .env file
 env
-Copy
-Edit
 SERPAPI_API_KEY=your_serpapi_key
 5. Run the App
-bash
-Copy
-Edit
+```bash
 streamlit run app.py
+```
 📂 Project Structure
-bash
-Copy
-Edit
+```bash
+
 ├── app.py              # Main Streamlit app
 ├── .env                # Environment file with API keys
 ├── requirements.txt    # Required Python packages
 └── README.md           # Project documentation
+```
 🔐 Environment Variables
 Create a .env file and add your keys:
 
 ini
-Copy
-Edit
 SERPAPI_API_KEY=your_serpapi_key
 Your Groq API key will be entered in the app sidebar during runtime.
 
